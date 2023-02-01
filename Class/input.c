@@ -2,6 +2,6 @@
 
 int main(){
     int a;
-    scanf("%d is the input by user", a);
+    scanf("%d",&a);
     printf("The input by user is %d", a);
 }
