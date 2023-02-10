@@ -6,6 +6,7 @@ int main(){
     scanf("%d",&a);
     printf("enter the value of b ",b);
     scanf("%d",&b);
-    c=a>b?a:b;
-    printf("%d is greater",c);
+    // c=a>b?a:b;
+    // printf("%d is greater",c);
+    a>b?printf("%d is greater",a):printf("%d is greater",b);
 }
