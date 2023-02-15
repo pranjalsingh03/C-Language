@@ -1,0 +1,1 @@
+//Write a programe to check weather the entered chareacter is vowel or not 
