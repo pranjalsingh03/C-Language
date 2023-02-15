@@ -1,0 +1,1 @@
+// Write a programe to check weather entered number is divisible by 2 and 8 both 
