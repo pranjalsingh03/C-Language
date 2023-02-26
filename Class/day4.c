@@ -107,3 +107,44 @@ break;
 }
 return 0;
 }
+
+
+
+
+#include<stdio.h>
+int main()
+{
+int a,b,res;
+char choice;
+printf("Press + for add\n");
+printf("Press - for sub\n");
+printf("Press * for mul\n");
+printf("enter your choice=");
+scanf("%c",&choice);
+switch(choice)
+{
+case '+':
+printf("enter your inputs=");
+scanf("%d%d",&a,&b);
+res=a+b;
+printf("sum=%d",res);
+break;
+default:
+printf("invalid choice");
+break;
+case '-':
+printf("enter your inputs=");
+scanf("%d%d",&a,&b);
+res=a-b;
+printf("sub=%d",res);
+break;
+case '*':
+printf("enter your inputs=");
+scanf("%d%d",&a,&b);
+res=a*b;
+printf("mul=%d",res);
+break;
+
+}
+return 0;
+}
