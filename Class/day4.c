@@ -67,3 +67,43 @@ else
 printf("invalid choice");
 return 0;
 }
+
+
+
+#include<stdio.h>
+int main()
+{
+int a,b,res;
+int choice;
+printf("Press 1 for add\n");
+printf("Press 2 for sub\n");
+printf("Press 3 for mul\n");
+printf("enter your choice=");
+scanf("%d",&choice);
+switch(choice)
+{
+case 1:
+printf("enter your inputs=");
+scanf("%d%d",&a,&b);
+res=a+b;
+printf("sum=%d",res);
+break;
+default:
+printf("invalid choice");
+break;
+case 2:
+printf("enter your inputs=");
+scanf("%d%d",&a,&b);
+res=a-b;
+printf("sub=%d",res);
+break;
+case 3:
+printf("enter your inputs=");
+scanf("%d%d",&a,&b);
+res=a*b;
+printf("mul=%d",res);
+break;
+
+}
+return 0;
+}
